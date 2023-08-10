@@ -1,0 +1,31 @@
+<root>
+  <a></a>
+  <b>
+    <b1/>
+    <b2/>
+    <b3/>
+    <b4>
+      asdfasdfsaf
+    </b4>
+    <b5/>
+    <b6/>
+    <b7></b7>
+  </b>
+  <c>
+    <c1 state="On"/>
+    <c2 state="On">
+        <c3>
+            <Lorem/>
+            <Ipsum state="Off"/>
+            <Lorem2 state="Off"/>
+            <Ipsum2 state="Off"/>
+        </c3>
+        <c4>
+            <Lorem state="On"/>
+            <Ipsum /> <!-- notice that it's missing the "On", but it should default to "on" in the UI -->
+            <Lorem2 state="On"/>
+            <Ipsum2 state="Off"/>
+        </c4>
+      </c2>
+  </c>
+</root>
